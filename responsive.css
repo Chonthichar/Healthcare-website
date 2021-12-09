@@ -20,7 +20,7 @@
         grid-gap: 5rem;
         text-align: center;
         position: relative;
-        left: 7%;
+        left: 5%;
         z-index: 100000;
         /*display: flex;*/
     }
@@ -33,7 +33,7 @@
         justify-self: center;
         text-align: center;
         font-size: 2.8rem;
-        left: 7%;
+        left: 5%;
         z-index: 100000;
         /*grid-template-columns: 1fr;*/
     }
@@ -41,6 +41,10 @@
     /*image*/
     .slides img {
         margin-top: 11rem;
+        /*margin-right: 100%;*/
+        float: left;
+        height: 150%;
+        width: 150%;
     }
 
     /*text on top of main image*/
