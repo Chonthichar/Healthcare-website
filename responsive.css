@@ -1,7 +1,7 @@
 @media (min-width: 768px) and (max-width: 1200px) {
     #navbar {
         padding-top: 1rem;
-        padding-bottom: 6rem;
+        padding-bottom: 7rem;
         /*border: 0.1rem solid white;*/
         display: grid;
         /*justify-self: center;*/
@@ -33,7 +33,7 @@
         justify-self: center;
         text-align: center;
         font-size: 1.5rem;
-        left: 8%;
+        left: 10%;
         z-index: 100000;
         /*grid-template-columns: 1fr;*/
     }
@@ -176,6 +176,50 @@
     }
     .results{
         margin-bottom: 2rem;
+    }
+/* section 4 changes from flex to grid from 3 colums to 2 columns*/
+    #home-articles .articles-container, #main-footer .footer-container{
+        /*grid-template-columns: repeat(2, 1fr);*/
+        grid-template-columns: 1fr;
+    }
+    #home-articles .articles-container >*:first-child,
+    #home-articles .articles-container >*:last-child {
+        grid-template-columns: 1fr;
+        grid-column: 1;
+    }
+    #main-footer .footer-container >*:last-child{
+        grid-column: 1;
+        margin-left: 0;
+    }
+    #main-footer h5, #main-footer p, .list li a{
+        text-align: left;
+        font-size: 0.5rem;
+        line-height: 1rem;
+        margin-left: 0;
+        left: 0;
+    }
+    #main-footer .footer-container input[type='email']{
+        margin-top: 0.5rem;
+        height: 200%;
+        font-size: 0.5rem;
+    }
+    #main-footer .footer-container input[type='submit']{
+        margin-top: 0.5rem;
+        height: 200%;
+        font-size: 1rem;
+    }
+    .copy p{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    #main-footer .social ul li a i{
+        width: 5px;
+    }
+    #main-footer .list li{
+        border-bottom: 0.2rem white solid;
+        width: 100%;
+        margin-right: auto;
+        margin-top: auto;
     }
 }
 

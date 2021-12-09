@@ -1085,7 +1085,7 @@ section {
     /*border: #f7c08a solid; */
 }
 
-#main-footer .footer-container > *:last-child {
+#main-footer .footer-container >*:last-child {
     background: #f7c08a;
     grid-column: 1 / span 4;
     padding: .5rem;
