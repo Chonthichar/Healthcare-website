@@ -17,6 +17,7 @@
         grid-gap: 3rem;
         text-align: center;
         position: relative;
+        left: 10%;
         /*display: flex;*/
     }
 
@@ -24,12 +25,16 @@
         position: relative;
         margin-top: 0rem;
         /*border: 0.1rem solid white;*/
-        margin-bottom: 0;
+        margin-bottom: 0.1rem;
         justify-self: center;
         text-align: center;
         font-size: 1.5rem;
-        left: 5%;
+        left: 8%;
         /*grid-template-columns: 1fr;*/
+    }
+/*image*/
+    .slides img {
+        margin-top: 7rem;
     }
 }
 
