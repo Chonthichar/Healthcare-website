@@ -39,8 +39,10 @@
     }
 
     /*image*/
-    .slides img {
+    .slides img:empty {
         margin-top: 11rem;
+        /*top: 50%;*/
+
         /*margin-right: 100%;*/
         float: left;
         height: 150%;
