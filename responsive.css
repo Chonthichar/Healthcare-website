@@ -202,15 +202,18 @@
         margin-top: 1.5rem;
         height: 200%;
         font-size: 0.5rem;
+        line-height: 1rem;
     }
     #main-footer .footer-container input[type='submit']{
         margin-top: 0.5rem;
         height: 200%;
         font-size: 1rem;
+        line-height: 1rem;
     }
     .copy p{
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1rem;
+        line-height: 1rem;
     }
     #main-footer .social ul li a i{
         width: 5px;
@@ -224,7 +227,9 @@
     .form-control input[type='text'],
     .form-control input [type='email'],
     .form-control input [type='phone']{
-        font-size: 2rem;
+        width: 80%;
+        height: 70%;
+        font-size: 1.5rem;
         line-height: 1.5rem;
     }
 }
