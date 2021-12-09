@@ -141,22 +141,9 @@ img {
     opacity: 0.3;
 }
 
-/*.btn-primary { !* btn- primary is to add in each section to make it more clean*!*/
-/*    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url(../styles/photo-9.jpg) no-repeat;*/
-/*    background-size: cover;*/
-/*    color: white;*/
-/*    cursor: pointer;*/
-/*    opacity: 1;*/
-/*    transition: 3s ease;*/
-/*    backface-visibility: hidden;*/
-/*    object-fit: cover;*/
-/*    !*background-color: #71DFE7;*!*/
-/*}*/
-/*.bg-primary:hover {*/
-/*    opacity: 0.3;*/
-/*}*/
 .bg-primarys { /* btn- primary is to add in each section to make it more clean*/
     background: url(../styles/photo-9.jpg) no-repeat;
+    background-size: cover;
     color: white;
     cursor: pointer;
     opacity: 1;
