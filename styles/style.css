@@ -230,6 +230,7 @@ img {
     border: 1px solid #F0A500;
 }
 
+/*transition box*/
 .trans-box {
     background: white;
     opacity: 0.6;
@@ -532,7 +533,7 @@ img {
     margin: 20px 0;
 }
 
-/*navbar*/
+/*navbar section 1 on the first starting*/
 #navbar {
     display: flex;
     align-items: center;
