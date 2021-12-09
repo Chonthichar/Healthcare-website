@@ -37,7 +37,7 @@
         z-index: 100000;
         /*grid-template-columns: 1fr;*/
     }
-
+    /*>>>>>>.>>>>>>>>>>>>>>>>Fix it*/
     /*image*/
     .slides img:empty {
         margin-top: 11rem;
@@ -68,7 +68,7 @@
 
     /*transition box*/
     .trans-box {
-        top: 65%;
+        top: 60%;
         width: 40%;
     }
 
@@ -109,11 +109,11 @@
     width: 100%;
     height: 100%;
     margin-top: 0;
-    line-height: 7rem;
-    font-size: 2.5rem;
+    line-height: 8rem;
+    font-size: 3rem;
 }
     #features p{
-        font-size: 2rem;
+        font-size: 2.5rem;
         padding-top: 0;
     }
     .flex-items, .flex-items h4{
@@ -122,11 +122,11 @@
         margin-top: 0;
         font-size: 3rem;
         background-color: whitesmoke;
-        line-height: 1rem;
+        line-height: 2.3rem;
     }
 .flex-items p{
     font-size: 2rem;
-    line-height: 1rem;
+    /*line-height: 1rem;*/
 }
 .flex-columns .row{
     display: grid;
@@ -140,14 +140,15 @@
     .flex-columns h2{
         font-size: 3rem;
         margin-top: 2rem;
-        margin-left: 2rem; line-height: 1rem;
+        margin-left: 2rem;
+        line-height: 1.5rem;
     }
     .flex-columns p{
         font-size: 2rem;
         margin-top: 1rem;
         margin-left: 2rem;
         margin-bottom: 0;
-        line-height: 1rem;;
+        line-height: 2rem;
     }
     .flex-columns a{
 
@@ -156,7 +157,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 1rem;
-        line-height: 1rem;
+        line-height: 2rem;
     }
     .table-text h3{
         margin-top: 1rem;
@@ -168,16 +169,17 @@
     .table-details{
         margin-top: 2rem;
         font-size: 2rem;
-        line-height: 1rem;
+        line-height: 1.5rem;
     }
     .style td, blockquote{
         font-size: 2rem;
-        margin-bottom: 1rem; line-height: 1rem;
+        margin-bottom: 1rem;
     }
     .column .bg-dark h3{
         margin-top: 2rem;
         margin-left: auto;
-        margin-right: auto; line-height: 1rem;
+        margin-right: auto;
+        line-height: 2rem;
     }
     .form-input-height, .form-input-weight{
         font-size: 2rem;
@@ -689,6 +691,16 @@
         grid-column: 1;
         margin-left: 0;
     }
+
+
+    #main-footer .footer-container > *:first-child,
+    #main-footer .footer-container > *:nth-child(2){
+        border-bottom: #444444 dotted 1px;
+        padding-bottom: 1rem;
+    }
+
+
+
     #main-footer h5, #main-footer p, .list li a{
         text-align: left;
         font-size: 1.5rem;
@@ -722,6 +734,8 @@
         margin-right: auto;
         margin-top: auto;
     }
+
+    /*email to call back*/
     .form-control input[type='text'],
     .form-control input [type='email'],
     .form-control input [type='phone']{
