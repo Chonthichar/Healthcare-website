@@ -1,7 +1,7 @@
 @media (min-width: 768px) and (max-width: 1200px) {
     #navbar {
         padding-top: 1rem;
-        padding-bottom: 7rem;
+        padding-bottom: 8rem;
         /*border: 0.1rem solid white;*/
         display: grid;
         /*justify-self: center;*/
@@ -40,7 +40,7 @@
 
     /*image*/
     .slides img {
-        margin-top: 7rem;
+        margin-top: 9rem;
     }
 
     /*text on top of main image*/
@@ -55,7 +55,7 @@
     }
 
     .container .showcase-content2 {
-        top: 25%;
+        top: 28%;
         left: 5%;
         font-size: 2.5rem;
     }
@@ -193,13 +193,13 @@
     }
     #main-footer h5, #main-footer p, .list li a{
         text-align: left;
-        font-size: 0.5rem;
+        font-size: 1.5rem;
         line-height: 1rem;
         margin-left: 0;
         left: 0;
     }
     #main-footer .footer-container input[type='email']{
-        margin-top: 0.5rem;
+        margin-top: 1.5rem;
         height: 200%;
         font-size: 0.5rem;
     }
@@ -210,7 +210,7 @@
     }
     .copy p{
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
     #main-footer .social ul li a i{
         width: 5px;
@@ -220,6 +220,12 @@
         width: 100%;
         margin-right: auto;
         margin-top: auto;
+    }
+    .form-control input[type='text'],
+    .form-control input [type='email'],
+    .form-control input [type='phone']{
+        font-size: 2rem;
+        line-height: 1.5rem;
     }
 }
 
