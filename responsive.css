@@ -1,7 +1,7 @@
 @media (min-width: 768px) and (max-width: 1200px) {
     #navbar {
         padding-top: 1rem;
-        padding-bottom: 8rem;
+        padding-bottom: 10rem;
         /*border: 0.1rem solid white;*/
         display: grid;
         /*justify-self: center;*/
@@ -13,34 +13,34 @@
     #navbar .logo {
         /*justify-self: center;*/
         /*border: 0.1rem solid white;*/
-        font-size: 4rem;
+        font-size: 6rem;
         padding-bottom: 1rem;
         margin-right: auto;
         margin-left: auto;
         grid-gap: 5rem;
         text-align: center;
         position: relative;
-        left: 10%;
+        left: 7%;
         z-index: 100000;
         /*display: flex;*/
     }
 
     #navbar nav ul, #navbar nav ul a {
         position: relative;
-        margin-top: 0rem;
+        margin-top: 0.5rem;
         /*border: 0.1rem solid white;*/
         margin-bottom: 2.7rem;
         justify-self: center;
         text-align: center;
-        font-size: 2rem;
-        left: 10%;
+        font-size: 3.5rem;
+        left: 7%;
         z-index: 100000;
         /*grid-template-columns: 1fr;*/
     }
 
     /*image*/
     .slides img {
-        margin-top: 9rem;
+        margin-top: 10rem;
     }
 
     /*text on top of main image*/
@@ -116,9 +116,11 @@
         margin-top: 0;
         font-size: 3rem;
         background-color: whitesmoke;
+        line-height: 1rem;
     }
 .flex-items p{
     font-size: 2rem;
+    line-height: 1rem;
 }
 .flex-columns .row{
     display: grid;
@@ -127,17 +129,19 @@
         font-size: 3rem;
         margin-top: 2rem;
         margin-left: 2rem;
+        line-height: 1rem;
     }
     .flex-columns h2{
         font-size: 3rem;
         margin-top: 2rem;
-        margin-left: 2rem;
+        margin-left: 2rem; line-height: 1rem;
     }
     .flex-columns p{
         font-size: 2rem;
         margin-top: 1rem;
         margin-left: 2rem;
-        margin-bottom: 0;
+        margin-bottom: 0
+        line-height: 1rem;;
     }
     .flex-columns a{
 
@@ -146,25 +150,28 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 1rem;
+        line-height: 1rem;
     }
     .table-text h3{
         margin-top: 1rem;
         font-size: 1.5rem;
         margin-bottom: 1rem;
         line-height: 1rem ;
+        /*line-height: 1rem;*/
     }
     .table-details{
         margin-top: 2rem;
         font-size: 2rem;
+        line-height: 1rem;
     }
     .style td, blockquote{
         font-size: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem; line-height: 1rem;
     }
     .column .bg-dark h3{
         margin-top: 2rem;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; line-height: 1rem;
     }
     .form-input-height, .form-input-weight{
         font-size: 2rem;
@@ -173,6 +180,7 @@
     }
     .btn-c{
         font-size: 2rem;
+        line-height: 1rem;
     }
     .results{
         margin-bottom: 2.5rem;
