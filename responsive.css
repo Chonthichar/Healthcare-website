@@ -1,7 +1,7 @@
 @media (min-width: 768px) and (max-width: 1200px) {
     #navbar {
         padding-top: 1rem;
-        padding-bottom: 10rem;
+        padding-bottom: 11rem;
         /*border: 0.1rem solid white;*/
         display: grid;
         /*justify-self: center;*/
@@ -27,12 +27,12 @@
 
     #navbar nav ul, #navbar nav ul a {
         position: relative;
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         /*border: 0.1rem solid white;*/
         margin-bottom: 2.7rem;
         justify-self: center;
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 2.8rem;
         left: 7%;
         z-index: 100000;
         /*grid-template-columns: 1fr;*/
@@ -40,7 +40,7 @@
 
     /*image*/
     .slides img {
-        margin-top: 10rem;
+        margin-top: 11rem;
     }
 
     /*text on top of main image*/
@@ -140,7 +140,7 @@
         font-size: 2rem;
         margin-top: 1rem;
         margin-left: 2rem;
-        margin-bottom: 0
+        margin-bottom: 0;
         line-height: 1rem;;
     }
     .flex-columns a{
@@ -184,7 +184,7 @@
     }
     .results{
         margin-bottom: 2.5rem;
-        margin-bottom: 1rem;
+        /*margin-bottom: 1rem;*/
     }
 /* section 4 changes from flex to grid from 3 colums to 2 columns*/
     #home-articles .articles-container, #main-footer .footer-container{
