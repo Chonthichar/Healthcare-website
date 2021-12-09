@@ -20,13 +20,15 @@
         /*display: flex;*/
     }
 
-    #navbar nav ul{
+    #navbar nav ul, #navbar nav ul a{
         position: relative;
         margin-top: 0rem;
         /*border: 0.1rem solid white;*/
         margin-bottom: 0;
         justify-self: center;
         text-align: center;
+        font-size: 1.5rem;
+        left: 5%;
         /*grid-template-columns: 1fr;*/
     }
 }
