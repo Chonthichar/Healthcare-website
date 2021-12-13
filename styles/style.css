@@ -90,9 +90,9 @@ img {
 /*for control grid section 5*/
 .container {
     margin: auto;
-    max-width: 1100px;
+    max-width: 1200px;
     overflow: auto;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
 }
 
 .text-primary {
