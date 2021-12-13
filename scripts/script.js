@@ -26,6 +26,7 @@ function bmi() {
     const formInputHeight = document.querySelector('.form-input-height');
     const formInputWeight = document.querySelector('.form-input-weight');
 
+
     const cal = weight / (height / 100 * height / 100);
     let con = parseFloat(cal.toFixed(2));
     if (isNaN(con)) {
@@ -62,10 +63,12 @@ const text = document.querySelector('.showcase-content');
 const text1 = document.querySelector('.showcase-content1');
 const text2 = document.querySelector('.showcase-content2');
 const animeBox = document.querySelector('.transition');
+const transformBox = document.querySelector('.trans-box');
 
 setInterval(function () {
     document.getElementById('radio' + move).checked = true;
     move++
+    transformBox.style.opacity = 0.6;
     text1.style.opacity = 100;
     text.style.opacity = 0;
     text2.style.opacity = 0;
