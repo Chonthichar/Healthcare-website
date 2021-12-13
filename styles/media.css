@@ -111,7 +111,8 @@
     #showcase .showcase-content p,
     #showcase .showcase-content1 p,
     #showcase .showcase-content2 p {
-        font-size: 1rem;
+        display: none;
+        font-size: 0.5rem;
         margin-top: 0.5rem;
         /*line-height: 0.5rem;*/
     }
@@ -143,20 +144,24 @@
         padding: 1rem;
     }
 
+    .btn {
+        margin-top: 0;
+        padding: 0.1rem;
+    }
     /*transition box*/
     .trans-box {
         /*display: none;*/
         /*top: 60%;*/
-        left: 18%;
-        width: 70%;
+        left: 19%;
+        width: 80%;
         /*height: 38%;*/
         font-size: 0.2rem;
-        top: 67%;
+        top: 57%;
     }
 
     .trans-box p {
         font-size: 20px;
-        line-height: 0.8rem;
+        line-height: 1.2rem;
     }
 
     .escape, .reveal {
